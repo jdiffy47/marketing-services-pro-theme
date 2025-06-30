@@ -1,0 +1,25 @@
+{
+  "name": "marketing-services-pro",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme built with Tailwind CSS for marketing services",
+  "main": "index.php",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/tailwind.css --watch",
+    "build:prod": "tailwindcss -i ./src/input.css -o ./dist/tailwind.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/tailwind.css --watch"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "tailwindcss",
+    "marketing",
+    "services"
+  ],
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.4.0"
+  }
+} 
