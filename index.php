@@ -6,7 +6,7 @@
         <div class="container-custom">
             <div class="text-center">
                 <h1 class="text-4xl md:text-6xl font-bold mb-6">
-                    <?php echo get_theme_mod('hero_title', 'Professional Websites & Marketing Services'); ?>
+                    🚀 This site is now auto-deployed from GitHub!
                 </h1>
                 <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
                     <?php echo get_theme_mod('hero_subtitle', 'Clear pricing. Professional results. No surprises.'); ?>
